@@ -63,7 +63,7 @@ namespace ClientConvertisseurV1.Views
         {
             // ATTENTION : Vérifiez bien le port ici (ex: 7243). 
             // Regardez votre fichier launchSettings.json ou l'URL quand vous lancez l'API.
-            WSService service = new WSService("https://localhost:7243/api/");
+            WSService service = new WSService("https://localhost:7254/api/");
 
             List<Devise> result = await service.GetDevisesAsync("devises");
 
